@@ -21,6 +21,7 @@ class _MyappState extends State<Myapp> {
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
               width: 300,
@@ -39,6 +40,7 @@ class _MyappState extends State<Myapp> {
               width: 300,
               child: TextField(
                 controller: uPassword,
+                // keyboardType: TextInputType.phone,
                 obscureText: true,
                 decoration: InputDecoration(
                   hintText: 'enter the pasword',
